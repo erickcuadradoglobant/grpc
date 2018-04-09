@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My test suite">
+
+	<test name="Microservice Tests">
+		<classes>
+			<class name="com.nest.example.tests.MicroServiceTest"></class>
+		</classes>
+	</test>
+</suite>

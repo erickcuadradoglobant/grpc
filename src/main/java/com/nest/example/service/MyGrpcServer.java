@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class MyGrpcServer {
   public static void main(String[] args) throws InterruptedException, IOException {
-    Server server = ServerBuilder.forPort(9080)
+    Server server = ServerBuilder.forPort(9081)
         .addService(new GreetingServiceImpl())
         .build();
     server.start();
